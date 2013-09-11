@@ -1,7 +1,7 @@
 
 MyTestApp::Application.routes.draw do
-	get 'google' => redirect('www.google.com')
-	match 'google' => redirect('http://www.google.com/'), via: [:get, :post]
+	get 'google' => redirect('http://www.google.com/')
+	#match 'google' => redirect('http://www.google.com/'), via: [:get, :post]
 
 
   # The priority is based upon order of creation: first created -> highest priority.
